@@ -1,0 +1,53 @@
+.private-label-image-wrapper img, .private-label-image-view img{
+    width: 100px;
+    z-index: 999;
+}
+.private-label-image-wrapper, .private-label-image-view{
+    position: absolute;
+    z-index: 1;
+}
+.product.media{
+    position: relative;
+}
+.private-label-text-wrapper, .private-label-text-view{
+    position: absolute;
+    z-index: 1;
+}
+.private-label-text-wrapper.top-left,
+.private-label-image-wrapper.top-left,
+.private-label-image-view.top-left{
+    top: 0;
+    left: 0;
+}
+.private-label-text-wrapper.top-right,
+.private-label-image-wrapper.top-right,
+.private-label-image-view.top-right{
+    top: 0;
+    right: 0;
+}
+.private-label-text-wrapper.bottom-left,
+.private-label-image-wrapper.bottom-left,
+.private-label-image-view.bottom-left{
+    bottom: 0;
+    left: 0;
+}
+.private-label-text-wrapper.bottom-right,
+.private-label-image-wrapper.bottom-right,
+.private-label-image-view.bottom-right{
+    bottom: 0;
+    right: 0;
+}
+.private-label-text-wrapper .private-label-text-content, .private-label-text-view .private-label-text-content{
+    z-index: 999;
+    display: inline-block;
+    padding: 7px;
+    background: black;
+    color: #fff;
+    border: 0px;
+    top: 7px;
+}
+
+.private-label-text-view .private-label-text-content{
+    top: 15px;
+    right: 20px;
+}
